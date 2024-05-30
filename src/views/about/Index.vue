@@ -26,7 +26,11 @@
           </p>
           <div class="cv animate__animated animate__lightSpeedInRight">
             <p>MY CV</p>
-            <a href="#"><i class="bi bi-link-45deg"></i></a>
+            <a
+              href="https://drive.google.com/file/d/1MU99NepgHnnTzSZP52qM6MoIritPO6Gw/view?usp=sharing"
+              target="_blank"
+              ><i class="bi bi-link-45deg"></i
+            ></a>
           </div>
         </div>
       </div>

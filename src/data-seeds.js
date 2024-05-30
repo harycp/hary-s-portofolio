@@ -18,7 +18,7 @@ export const projects = [
     description:
       "Portfolio project for showcasing my project, experience and skills.",
     url: "#",
-    github: "#",
+    github: "https://github.com/harycp/hary-s-portofolio.git",
     imgURL: Project1,
   },
   {
