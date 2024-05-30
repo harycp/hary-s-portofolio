@@ -94,6 +94,8 @@ export default {
   width: 100%;
   padding-bottom: 2rem;
   padding-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-hero {
