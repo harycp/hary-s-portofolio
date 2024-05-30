@@ -69,6 +69,8 @@ h1 {
   width: 100%;
   padding-top: 3rem;
   padding-bottom: 6rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-container {
