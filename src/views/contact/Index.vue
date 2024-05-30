@@ -4,7 +4,12 @@
       <div class="content">
         <div class="main-hero">
           <div class="left-side">
-            <h1 class="animate__animated animate__lightSpeedInLeft">Contact</h1>
+            <h1
+              class="animate__animated animate__lightSpeedInLeft"
+              style="text-transform: uppercase"
+            >
+              Contact
+            </h1>
             <p class="animate__animated animate__fadeInLeft">
               Interested in connecting? feel free to drop me a message via any
               of the contact methods below. I look forward to hearing.
