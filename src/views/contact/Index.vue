@@ -79,6 +79,8 @@ export default {
   padding-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .content {
