@@ -102,6 +102,7 @@ h1 {
   }
   .project-container {
     grid-template-columns: 1fr;
+    margin-bottom: 3rem;
   }
 }
 </style>
