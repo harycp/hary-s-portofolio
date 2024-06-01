@@ -24,7 +24,7 @@
           <div class="cv animate__animated animate__fadeInDown">
             <p>MY CV</p>
             <a
-              href="https://drive.google.com/file/d/1MU99NepgHnnTzSZP52qM6MoIritPO6Gw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1XZuylXwfidjgoVHeVRdf2X4i1WIi9SzC/view?usp=sharing"
               target="_blank"
               ><i class="bi bi-link-45deg"></i
             ></a>
