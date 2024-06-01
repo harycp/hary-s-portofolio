@@ -3,17 +3,15 @@
     <div class="container">
       <div class="content">
         <div class="main-hero">
-          <div class="left-side">
-            <h1 class="animate__animated animate__lightSpeedInLeft">
-              Full-Stack Developer
-            </h1>
-            <p class="animate__animated animate__fadeInLeft">
+          <div class="left-side animate__animated animate__fadeInLeft">
+            <h1>Full-Stack Developer</h1>
+            <p>
               Hello, I'm Hary Capri, a fourth-semester Computer Science student
               at UPN Veteran Jakarta. I'm passionate Web Developer, Front-End,
               Full Stack Developer.
             </p>
           </div>
-          <div class="right-side animate__animated animate__fadeInRight">
+          <div class="right-side animate__animated animate__fadeInDown">
             <div class="box"></div>
           </div>
         </div>
@@ -50,7 +48,7 @@
             </ul>
           </div>
         </div>
-        <div class="social animate__animated animate__fadeInRight">
+        <div class="social animate__animated animate__fadeInUp">
           <a href="https://www.linkedin.com/in/hary-capri/" target="_blank">
             <i class="bi bi-linkedin"></i>
           </a>
@@ -98,6 +96,7 @@ export default {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 1280px;
 }
 
 .main-hero {

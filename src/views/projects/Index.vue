@@ -52,9 +52,9 @@ a {
 }
 h1 {
   color: #2d2e32;
-  font-size: 3.4rem;
+  font-size: 4rem;
   font-weight: 800;
-  line-height: 1.4;
+  line-height: 1.2;
   margin-bottom: 1.6rem;
 
   text-align: center;
@@ -67,12 +67,13 @@ h1 {
   flex-direction: column;
   position: relative;
   width: 100%;
-  padding-top: 3rem;
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 1280px;
 }
 
 .project-container {

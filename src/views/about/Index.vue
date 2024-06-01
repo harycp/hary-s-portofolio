@@ -1,30 +1,27 @@
 <template>
   <div class="about">
     <div class="container">
-      <div class="content">
-        <div class="left-side animate__animated animate__fadeInLeft">
+      <Navigation />
+      <div class="content animate__animated animate__fadeInLeft">
+        <div class="left-side">
           <img src="../../assets/img/about.jpg" alt="about-img" />
         </div>
-        <div class="right-side">
-          <h3 class="animate__animated animate__lightSpeedInRight">About Me</h3>
-          <h1 class="animate__animated animate__lightSpeedInRight">
-            Full Stack Developer
-          </h1>
-          <h2 class="animate__animated animate__lightSpeedInRight">
-            Hary Capri
-          </h2>
-          <p class="animate__animated animate__lightSpeedInRight">
+        <div class="right-side animate__animated animate__fadeInDown">
+          <h3>About Me</h3>
+          <h1>Full Stack Developer</h1>
+          <h2>Hary Capri</h2>
+          <p>
             I am a passionate Full-Stack Developer skilled in front-end (HTML,
             CSS, JavaScript, Vue.js, React.js) and back-end (Node.js,
             Express.js) technologies. I work with databases like MongoDB and
             MySQL, and tools like Git and Docker.
           </p>
           <br />
-          <p class="animate__animated animate__lightSpeedInRight">
+          <p>
             My projects focus on creating efficient, scalable, and user-friendly
             applications. I am eager to collaborate on innovative projects.
           </p>
-          <div class="cv animate__animated animate__lightSpeedInRight">
+          <div class="cv animate__animated animate__fadeInDown">
             <p>MY CV</p>
             <a
               href="https://drive.google.com/file/d/1MU99NepgHnnTzSZP52qM6MoIritPO6Gw/view?usp=sharing"
@@ -34,7 +31,6 @@
           </div>
         </div>
       </div>
-      <Navigation />
     </div>
   </div>
 </template>
@@ -64,10 +60,13 @@ export default {
   flex-direction: column;
   position: relative;
   width: 100%;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 1280px;
 }
 
 .content {
@@ -94,8 +93,8 @@ export default {
 
 .right-side h3 {
   color: #2d2e32;
-  font-size: 1.7rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-weight: 800;
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
@@ -108,7 +107,7 @@ export default {
 }
 
 .right-side h2 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   line-height: 1.4;
   font-weight: 700;
   margin-bottom: 1rem;

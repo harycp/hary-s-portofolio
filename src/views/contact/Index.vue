@@ -3,14 +3,9 @@
     <div class="container">
       <div class="content">
         <div class="main-hero">
-          <div class="left-side">
-            <h1
-              class="animate__animated animate__lightSpeedInLeft"
-              style="text-transform: uppercase"
-            >
-              Contact
-            </h1>
-            <p class="animate__animated animate__fadeInLeft">
+          <div class="left-side animate__animated animate__fadeInLeft">
+            <h1 style="text-transform: uppercase">Contact</h1>
+            <p>
               Interested in connecting? feel free to drop me a message via any
               of the contact methods below. I look forward to hearing.
             </p>
@@ -42,7 +37,7 @@
               </div>
             </div>
           </div>
-          <div class="right-side animate__animated animate__fadeInRight">
+          <div class="right-side animate__animated animate__fadeInDown">
             <div class="box"></div>
           </div>
         </div>
@@ -86,6 +81,7 @@ export default {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
+  max-width: 1280px;
 }
 
 .content {
